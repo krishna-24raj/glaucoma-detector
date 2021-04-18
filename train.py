@@ -45,7 +45,7 @@ model.add(BatchNormalization())
 model.add(Activation('relu'))
 model.add(Dropout(0.5))
 
-model.add(Dense(1))
+model.add(Dense(2))
 model.add(BatchNormalization())
 model.add(Activation('sigmoid'))
 
